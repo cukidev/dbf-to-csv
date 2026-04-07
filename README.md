@@ -19,9 +19,9 @@ pip install pandas dbfread
 ## 🛠️ Uso
 1. Coloca los archivos `.dbf` en la misma raíz que el script.
 2. Ejecuta el script desde la terminal:
-   \`\`\`bash
+   ```bash
    python convertidor_dbf.py
-   \`\`\`
+   ```
 3. Por cada base de datos procesada, se generarán automáticamente:
    - `nombre_archivo.csv` (Contiene los registros activos)
    - `nombre_archivo_eliminados.csv` (Contiene los registros rescatados)
